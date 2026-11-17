@@ -1,0 +1,12 @@
+{
+  "username": "ThreshoLdnnis",
+  "name": "Mofarigano",
+  "role": "AI Founder & Builder",
+  "focus": "AI products / Web / Quant",
+  "tagline": "Building AI products from idea to production.",
+  "featured_projects": [
+    {"name": "Cook-Idea", "description": "An AI workspace for cooking up new ideas."},
+    {"name": "Quant-for-babies", "description": "A friendly starting point for quantitative finance."},
+    {"name": "LingoResources", "description": "Useful resources, collected in one place."}
+  ]
+}

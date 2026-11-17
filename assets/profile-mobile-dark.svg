@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1100" viewBox="0 0 640 1100" role="img" aria-labelledby="title desc">
+<title id="title">Mofarigano: terminal-style GitHub profile</title>
+<desc id="desc">ASCII portrait, personal introduction and public GitHub statistics. Uptime is GitHub account age. Stars and forks are totals on owned public repositories.</desc>
+<style>text {font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;}</style>
+<rect x="1" y="1" width="638" height="1098" rx="16" fill="#0d1117" stroke="#30363d"/>
+<path d="M17 1H623Q639 1 639 17V57H1V17Q1 1 17 1Z" fill="#161b22"/>
+<path d="M1 57H639" stroke="#30363d"/>
+<circle cx="28" cy="29" r="5.5" fill="#ff5f57"/>
+<circle cx="48" cy="29" r="5.5" fill="#febc2e"/>
+<circle cx="68" cy="29" r="5.5" fill="#28c840"/>
+<text x="320.0" y="34" font-size="12" fill="#9aa8b8" font-weight="400" text-anchor="middle">~/ThreshoLdnnis / neofetch</text>
+<text x="166" y="102.00" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:-----+*+**++++****++**+****+*****####%##%%%#####%%####%%%##</text>
+<text x="166" y="110.35" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:-----=*++**+++**+#+=-......    .:-+*#%##%%%#####%%####%%%##</text>
+<text x="166" y="118.70" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:-----=*++**+++**+-.                 -*###%%#####%%####%%###</text>
+<text x="166" y="127.05" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:------**=+*+++*=                      -*%%%#####%%####%%###</text>
+<text x="166" y="135.40" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::-----+*=+*++=.                         *%######%%####%%###</text>
+<text x="166" y="143.75" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::-----=*+=++=.                           +%#####%#####%%###</text>
+<text x="166" y="152.10" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:-------*+=++.                             +#####%#####%%###</text>
+<text x="166" y="160.45" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:-------++=+:         .         .          .*####%#####%%##*</text>
+<text x="166" y="168.80" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::------=*+-          :         :           -####%#####%%##*</text>
+<text x="166" y="177.15" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::-------++.          -         ::           *###%####%%###*</text>
+<text x="166" y="185.50" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::-------+=          .-      .  .:.  .       -###%####%%#*#*</text>
+<text x="166" y="193.85" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::-------=:       .  ::..    : .. :  .       .*##%####%%#*#*</text>
+<text x="166" y="202.20" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::--------:.      : .. .:   .::.::-=..        +##%####%%#***</text>
+<text x="166" y="210.55" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::-------::       :-==---:..:::=+**+**:  ..   =##%####%%#***</text>
+<text x="166" y="218.90" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::--------:      =#+++++. ...  :-:-..+.  ..   -##%####%%#***</text>
+<text x="166" y="227.25" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::---------..    -+ :::.        ..:...   .:   -##%###%%%###*</text>
+<text x="166" y="235.60" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::---------:.     ...:..       .......   ..   :#%%%%%%%%%%##</text>
+<text x="166" y="243.95" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::---------:     :......         .....   ..   :#############</text>
+<text x="166" y="252.30" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::---------:     :-....             .:   :.   .*############</text>
+<text x="166" y="260.65" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::--------:..    :-:      .         -.  .::.  .*############</text>
+<text x="166" y="269.00" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::----------::.  :--:.            :--   :-:.  .*############</text>
+<text x="166" y="277.35" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::----------:::: .--:-::..    ..-*:-:   -:::.  *%###%#+=####</text>
+<text x="166" y="285.70" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::---------::::-:-.:----##-:::-=%@##.  .:  ..  ==#%%+.-*#*=*</text>
+<text x="166" y="294.05" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::---:----=-::.:::: --#@@@@%#%%@@@@*   :. ..... -%*:.+#=.  +</text>
+<text x="166" y="302.40" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::---*#####-:::.   ...#@@@@@@@@@@@@-   .     . .+-  =-  .-*%</text>
+<text x="166" y="310.75" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::--#%%%%%%:::...  .  #@@@@@@@@@@@#=  .     .         :=**#%</text>
+<text x="166" y="319.10" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:::=%%%%%%*:::.  . .. +@@@@@@@@@@%#:  ..   .         .:---*#</text>
+<text x="166" y="327.45" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:::+%%%%%@+:::.  ..  ..-:#@@@@@@@%+  .:.   .       .-+*##%%#</text>
+<text x="166" y="335.80" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">:::*%%%%%%-:.:.  .   .:: =@@@@@@@@-  :+-   .   ..-*#%%%%#%##</text>
+<text x="166" y="344.15" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::-#%%%%@+-.:-.  . .::-: +@@@@@@@@=. =%=   .   : +%%####%%##</text>
+<text x="166" y="352.50" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">::=%%%%%#+..:-:   . ..:  #@@@@@@@@+*.:@+  .    : :#%%%%#%%##</text>
+<text x="166" y="360.85" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">.:=%%%%%#- ::-:    .    +@@@@@@@@@%##-*+  .    -. +%%%%%%%##</text>
+<text x="166" y="369.20" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">++#%%%#%= :::--    ..  .%@@@@@@@@@@@@@@+ ..   .-. :%%%%%%%##</text>
+<text x="166" y="377.55" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">%%%%%#%*  :::--    .   =@@@@@@@@@@@@@%@* .    .-:. *%%%%%%%#</text>
+<text x="166" y="385.90" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">%%%%%##  .-:---.  .    #@@@@@@@@@@@@@@@* .    .-:. :#%%%%%%#</text>
+<text x="166" y="394.25" font-size="8.0" fill="#aad7ca" xml:space="preserve" textLength="288" lengthAdjust="spacingAndGlyphs">%%%%%#:  ::--:-. .    .@@@@@@@@@@@@@@@@+      .:::. +%%%%%%%</text>
+<text x="320.0" y="426" font-size="21" fill="#e6edf3" font-weight="700" text-anchor="middle">Mofarigano</text>
+<text x="320.0" y="452" font-size="12" fill="#9aa8b8" font-weight="400" text-anchor="middle">@ThreshoLdnnis</text>
+<text x="34" y="498" font-size="20" fill="#70e1bc" font-weight="700" text-anchor="start">ThreshoLdnnis@github</text>
+<path d="M34 518H604" stroke="#30363d"/>
+<text x="34" y="561" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Role</text>
+<text x="117" y="561" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">AI Founder &amp; Builder</text>
+<text x="34" y="594" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Focus</text>
+<text x="117" y="594" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">AI products / Web / Quant</text>
+<text x="34" y="627" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Stack</text>
+<text x="117" y="627" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">HTML / Jupyter / JavaScript / TypeScript / Python</text>
+<text x="34" y="660" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Uptime</text>
+<text x="117" y="660" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">326 days on GitHub</text>
+<text x="34" y="693" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Now</text>
+<text x="117" y="693" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">From idea to production</text>
+<text x="34" y="746" font-size="12" fill="#9aa8b8" font-weight="400" text-anchor="start">// PUBLIC GITHUB STATS</text>
+<text x="34.0" y="793" font-size="27" fill="#70e1bc" font-weight="700" text-anchor="start">24</text>
+<text x="34.0" y="814" font-size="10" fill="#9aa8b8" font-weight="400" text-anchor="start">PUBLIC REPOS</text>
+<text x="224.0" y="793" font-size="27" fill="#70e1bc" font-weight="700" text-anchor="start">19</text>
+<text x="224.0" y="814" font-size="10" fill="#9aa8b8" font-weight="400" text-anchor="start">STARS EARNED</text>
+<text x="414.0" y="793" font-size="27" fill="#70e1bc" font-weight="700" text-anchor="start">10</text>
+<text x="414.0" y="814" font-size="10" fill="#9aa8b8" font-weight="400" text-anchor="start">FOLLOWERS</text>
+<text x="34.0" y="861" font-size="27" fill="#70e1bc" font-weight="700" text-anchor="start">1</text>
+<text x="34.0" y="882" font-size="10" fill="#9aa8b8" font-weight="400" text-anchor="start">FORKS RECEIVED</text>
+<text x="224.0" y="861" font-size="27" fill="#70e1bc" font-weight="700" text-anchor="start">21</text>
+<text x="224.0" y="882" font-size="10" fill="#9aa8b8" font-weight="400" text-anchor="start">FOLLOWING</text>
+<text x="414.0" y="861" font-size="27" fill="#70e1bc" font-weight="700" text-anchor="start">2025</text>
+<text x="414.0" y="882" font-size="10" fill="#9aa8b8" font-weight="400" text-anchor="start">JOINED GITHUB</text>
+<text x="34" y="939" font-size="15" fill="#79b8ff" font-weight="400" text-anchor="start">$ keep building_</text>
+<path d="M28 1022H612" stroke="#30363d"/>
+<text x="32" y="1052" font-size="12" fill="#9aa8b8" font-weight="400" text-anchor="start">Building AI products from idea to production.</text>
+<text x="32" y="1076" font-size="9" fill="#9aa8b8" font-weight="400" text-anchor="start">PUBLIC DATA / DAILY REFRESH</text>
+<text x="608" y="1076" font-size="9" fill="#9aa8b8" font-weight="400" text-anchor="end">UPDATED 2026-11-17 19:47 UTC+8</text>
+</svg>

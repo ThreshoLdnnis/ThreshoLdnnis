@@ -1,0 +1,78 @@
+{
+  "login": "ThreshoLdnnis",
+  "name": "Mofarigano",
+  "bio": "CS @ Tsinghua Shenzhen\r\n\r\nAI Founder & Builder\r\nFormer Quant @ Two Sigma \r\nFormer HR Intern @ Alibaba\r\n\r\nBuilding AI products from idea to production.\r\nIntere",
+  "blog": "",
+  "avatar_url": "https://avatars.githubusercontent.com/u/251559955?v=4",
+  "created_at": "2025-12-26T07:18:32Z",
+  "account_age_days": 326,
+  "followers": 10,
+  "following": 21,
+  "public_repos": 24,
+  "owned_stars": 19,
+  "owned_forks": 1,
+  "languages": {
+    "HTML": 14,
+    "Jupyter Notebook": 3,
+    "JavaScript": 2,
+    "TypeScript": 2,
+    "Python": 1
+  },
+  "recent_projects": [
+    {
+      "name": "ThreshoLdnnis",
+      "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
+      "description": "Terminal-style profile · ASCII portrait and automatically refreshed public GitHub stats",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-11-17T11:46:58Z"
+    },
+    {
+      "name": "Music-of-Love",
+      "url": "https://github.com/ThreshoLdnnis/Music-of-Love",
+      "description": "A personal music corner with tactile 3D discs, paper-like lyric pages, and a local audio player. 用光盘封面、歌词与旋律，收藏喜欢的声音。",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-11-17T11:37:48Z"
+    },
+    {
+      "name": "WebDesign10-PhotoBall",
+      "url": "https://github.com/ThreshoLdnnis/WebDesign10-PhotoBall",
+      "description": "Orbit — an interactive 3D image sphere built with standalone HTML, inline CSS, and vanilla JavaScript.",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-11-17T11:14:29Z"
+    },
+    {
+      "name": "WebDesign9-PageToCode",
+      "url": "https://github.com/ThreshoLdnnis/WebDesign9-PageToCode",
+      "description": "Distill 页面复刻：原生 HTML/CSS/JavaScript、实时粒子扫描与深色编辑器代码转换。",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-11-17T11:12:49Z"
+    },
+    {
+      "name": "ReadingCorner",
+      "url": "https://github.com/ThreshoLdnnis/ReadingCorner",
+      "description": "老猪精选书籍 · 一个可离线打开的 3D 私人读书角，收录 51 本书，支持分类、书单编辑与导入导出。",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "pushed_at": "2026-11-17T11:10:58Z"
+    },
+    {
+      "name": "LingoResources",
+      "url": "https://github.com/ThreshoLdnnis/LingoResources",
+      "description": "资源聚合平台",
+      "language": "TypeScript",
+      "stars": 1,
+      "forks": 0,
+      "pushed_at": "2026-11-17T10:33:49Z"
+    }
+  ],
+  "fetched_at": "2026-11-17T11:47:51Z"
+}
