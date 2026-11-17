@@ -55,7 +55,7 @@
 <text x="420" y="209" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Focus</text>
 <text x="503" y="209" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">AI products / Web / Quant</text>
 <text x="420" y="242" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Stack</text>
-<text x="503" y="242" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">HTML / Jupyter / JavaScript / TypeScript / Python</text>
+<text x="503" y="242" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">HTML / Jupyter / JavaScript / Python / TypeScript</text>
 <text x="420" y="275" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Uptime</text>
 <text x="503" y="275" font-size="14" fill="#e6edf3" font-weight="400" text-anchor="start">326 days on GitHub</text>
 <text x="420" y="308" font-size="14" fill="#79b8ff" font-weight="700" text-anchor="start">Now</text>
@@ -77,5 +77,5 @@
 <path d="M28 592H1092" stroke="#30363d"/>
 <text x="32" y="622" font-size="12" fill="#9aa8b8" font-weight="400" text-anchor="start">Building AI products from idea to production.</text>
 <text x="32" y="646" font-size="9" fill="#9aa8b8" font-weight="400" text-anchor="start">PUBLIC DATA / DAILY REFRESH</text>
-<text x="1088" y="646" font-size="9" fill="#9aa8b8" font-weight="400" text-anchor="end">UPDATED 2026-11-17 19:47 UTC+8</text>
+<text x="1088" y="646" font-size="9" fill="#9aa8b8" font-weight="400" text-anchor="end">UPDATED 2026-11-17 19:51 UTC+8</text>
 </svg>

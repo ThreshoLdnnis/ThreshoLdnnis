@@ -15,18 +15,18 @@
     "HTML": 14,
     "Jupyter Notebook": 3,
     "JavaScript": 2,
-    "TypeScript": 2,
-    "Python": 1
+    "Python": 2,
+    "TypeScript": 2
   },
   "recent_projects": [
     {
       "name": "ThreshoLdnnis",
       "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
       "description": "Terminal-style profile · ASCII portrait and automatically refreshed public GitHub stats",
-      "language": "",
+      "language": "Python",
       "stars": 0,
       "forks": 0,
-      "pushed_at": "2026-11-17T11:46:58Z"
+      "pushed_at": "2026-11-17T11:50:56Z"
     },
     {
       "name": "Music-of-Love",
@@ -74,5 +74,5 @@
       "pushed_at": "2026-11-17T10:33:49Z"
     }
   ],
-  "fetched_at": "2026-11-17T11:47:51Z"
+  "fetched_at": "2026-11-17T11:51:09Z"
 }
