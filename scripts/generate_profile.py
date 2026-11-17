@@ -14,15 +14,15 @@ from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageFilter, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 THEMES = {
-    "dark": dict(bg="#0d1117", header="#161b22", border="#30363d", text="#e6edf3",
-                 muted="#9aa8b8", accent="#70e1bc", blue="#79b8ff", portrait="#aad7ca"),
-    "light": dict(bg="#ffffff", header="#f6f8fa", border="#d0d7de", text="#1f2328",
-                  muted="#57606a", accent="#167653", blue="#0969da", portrait="#345f53"),
+    "dark": dict(bg="#17111b", header="#241a29", border="#463043", text="#fff6fc",
+                 muted="#d9b8ce", accent="#ff9dce", blue="#ffc4e1", portrait="#fff1f8"),
+    "light": dict(bg="#211823", header="#302134", border="#65475a", text="#fff9fd",
+                  muted="#e0bed3", accent="#ffabd6", blue="#ffd0e8", portrait="#fff1f8"),
 }
 
 
@@ -32,7 +32,7 @@ def shorten(value: object, length: int) -> str:
     return textwrap.shorten(value, width=length, placeholder="...") if len(value) > length else value
 
 
-def make_portrait(url: str) -> list[str]:
+def make_portrait(url: str) -> dict:
     parsed = urllib.parse.urlparse(url)
     if parsed.scheme != "https" or parsed.hostname != "avatars.githubusercontent.com":
         raise ValueError("Portrait source must be a public GitHub avatar URL")
@@ -42,28 +42,47 @@ def make_portrait(url: str) -> list[str]:
     if len(payload) > 5_000_000:
         raise ValueError("Avatar exceeds the 5 MB size limit")
     with Image.open(io.BytesIO(payload)) as image:
-        image = ImageOps.fit(image.convert("RGB"), (600, 600), method=Image.Resampling.LANCZOS)
-        image = ImageOps.autocontrast(ImageOps.grayscale(image), cutoff=1)
-        image = image.resize((60, 36), Image.Resampling.LANCZOS)
-        # Dark pixels form dense glyphs; retain the photograph's silhouette.
-        ramp = "@%#*+=-:. "
-        rows = []
+        image = ImageOps.fit(image.convert("RGB"), (672, 672), method=Image.Resampling.LANCZOS)
+        image = image.resize((112, 70), Image.Resampling.LANCZOS)
+        grayscale = ImageOps.autocontrast(ImageOps.grayscale(image), cutoff=1)
+        grayscale = grayscale.filter(ImageFilter.UnsharpMask(radius=0.8, percent=150, threshold=2))
+        edges = grayscale.filter(ImageFilter.FIND_EDGES)
+        indexed = image.quantize(colors=16, method=Image.Quantize.MEDIANCUT)
+        color_table = indexed.getpalette()
+        colors = ["#b74b85", "#e77ab4", "#ffaad4", "#ffd4eb", "#fff5fc"]
+        color_indexes = []
+        for index in range(16):
+            original = color_table[index * 3:index * 3 + 3]
+            # Pink midtones and white highlights preserve the hair and eyes.
+            luminance = sum(channel * weight for channel, weight in zip(original, (0.2126, 0.7152, 0.0722))) / 255
+            color_indexes.append(min(4, int(luminance * 5)))
+        ramp = " .,:;irsXA253hMHGS#9B&@"
+        rows, color_rows = [], []
         for y in range(image.height):
-            row = "".join(ramp[min(9, image.getpixel((x, y)) * 10 // 256)] for x in range(image.width))
-            rows.append(row)
-    return rows
+            row, color_row = [], []
+            for x in range(image.width):
+                lightness = (grayscale.getpixel((x, y)) / 255) ** 0.88
+                edge = edges.getpixel((x, y)) / 255 if 0 < x < 111 and 0 < y < 69 else 0
+                density = min(1, 0.87 * lightness + 0.13 * edge)
+                row.append(ramp[round(density * (len(ramp) - 1))])
+                color_row.append(color_indexes[indexed.getpixel((x, y))])
+            rows.append("".join(row))
+            color_rows.append(color_row)
+    return {"version": 2, "columns": 112, "lines": 70, "rows": rows, "colors": colors, "color_rows": color_rows}
 
 
-def render(config: dict, stats: dict, rows: list[str], mode: str, mobile: bool = False) -> str:
+def render(config: dict, stats: dict, portrait: dict, mode: str, mobile: bool = False) -> str:
     palette = THEMES[mode]
-    width, height = (640, 1100) if mobile else (1120, 670)
+    width, height = (640, 1132) if mobile else (1120, 670)
+    rows = portrait["rows"]
     fragments = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
         f'<title id="title">{escape(config["name"])}: terminal-style GitHub profile</title>',
         '<desc id="desc">ASCII portrait, personal introduction and public GitHub statistics. '
         'Uptime is GitHub account age. Stars and forks are totals on owned public repositories.</desc>',
-        '<style>text {font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;}</style>',
+        '<style>text {font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;}'
+        + ''.join(f'.p{i}{{fill:{color};}}' for i, color in enumerate(portrait["colors"])) + '</style>',
         f'<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="16" fill="{palette["bg"]}" stroke="{palette["border"]}"/>',
         f'<path d="M17 1H{width-17}Q{width-1} 1 {width-1} 17V57H1V17Q1 1 17 1Z" fill="{palette["header"]}"/>',
         f'<path d="M1 57H{width-1}" stroke="{palette["border"]}"/>',
@@ -77,21 +96,30 @@ def render(config: dict, stats: dict, rows: list[str], mode: str, mobile: bool =
         fragments.append(f'<circle cx="{x}" cy="29" r="5.5" fill="{color}"/>')
     text(width / 2, 34, "~/" + config["username"] + " / neofetch", 12, "muted", anchor="middle")
     if mobile:
-        portrait_x, portrait_y, portrait_step, portrait_size = 166, 102, 8.35, 8.0
-        portrait_caption_y = 426
-        column_x, title_y = 34, 498
+        portrait_x, portrait_y, portrait_step, portrait_size = 156, 98, 4.69, 4.7
+        portrait_caption_y = 458
+        column_x, title_y = 34, 530
+        fragments.append('<rect x="144" y="80" width="352" height="356" rx="10" fill="#130f16"/>')
     else:
-        portrait_x, portrait_y, portrait_step, portrait_size = 42, 130, 10.1, 9.0
+        portrait_x, portrait_y, portrait_step, portrait_size = 30, 145, 4.69, 4.7
         portrait_caption_y = 526
         column_x, title_y = 420, 113
+        fragments.append('<rect x="20" y="114" width="348" height="386" rx="10" fill="#130f16"/>')
         fragments.append(f'<path d="M386 97V559" stroke="{palette["border"]}" stroke-dasharray="3 6"/>')
 
     for index, row in enumerate(rows):
         # Explicit width avoids changes in fallback monospace font metrics.
-        portrait_width = 307 if not mobile else 288
+        portrait_width = 328
+        color_row = portrait["color_rows"][index]
+        runs = []
+        start = 0
+        for end in range(1, len(row) + 1):
+            if end == len(row) or color_row[end] != color_row[start]:
+                runs.append(f'<tspan class="p{color_row[start]}">{escape(row[start:end])}</tspan>')
+                start = end
         fragments.append(f'<text x="{portrait_x}" y="{portrait_y+index*portrait_step:.2f}" font-size="{portrait_size}" '
                          f'fill="{palette["portrait"]}" xml:space="preserve" textLength="{portrait_width}" '
-                         f'lengthAdjust="spacingAndGlyphs">{escape(row)}</text>')
+                         f'lengthAdjust="spacingAndGlyphs">{"".join(runs)}</text>')
     center = 194 if not mobile else width / 2
     text(center, portrait_caption_y, config["name"], 21, "text", True, "middle")
     text(center, portrait_caption_y + 26, "@" + config["username"], 12, "muted", anchor="middle")
@@ -173,21 +201,23 @@ def main() -> None:
         raise ValueError("Stats belong to a different GitHub account")
     ASSETS.mkdir(exist_ok=True)
     cache = ASSETS / "ascii-portrait.json"
-    rows = None
+    portrait = None
     if not args.offline:
         try:
-            rows = make_portrait(stats["avatar_url"])
+            portrait = make_portrait(stats["avatar_url"])
         except (OSError, ValueError, urllib.error.URLError) as error:
             if not cache.exists():
                 raise
             print(f"Avatar refresh unavailable; using existing portrait ({type(error).__name__}).")
-    if rows is None:
-        rows = json.loads(cache.read_text(encoding="utf-8"))["rows"]
-    cache.write_text(json.dumps({"rows": rows}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if portrait is None:
+        portrait = json.loads(cache.read_text(encoding="utf-8"))
+    if portrait.get("version") != 2:
+        raise ValueError("Refresh the portrait once without --offline to build the detailed color cache")
+    cache.write_text(json.dumps(portrait, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     for mode in THEMES:
         for mobile in (False, True):
             name = f'profile-{"mobile-" if mobile else ""}{mode}.svg'
-            (ASSETS / name).write_text(render(config, stats, rows, mode, mobile), encoding="utf-8")
+            (ASSETS / name).write_text(render(config, stats, portrait, mode, mobile), encoding="utf-8")
     (ROOT / "README.md").write_text(make_readme(config, stats), encoding="utf-8")
     print("Generated desktop/mobile SVG cards for dark/light themes and README.md.")
 
