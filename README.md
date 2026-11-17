@@ -6,12 +6,5 @@
   <img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/profile-light.svg?v=79177c9ab0a0" alt="Mofarigano | AI Founder &amp; Builder. Public GitHub stats: 24 repositories, 19 stars, 10 followers. Uptime means GitHub account age." width="1120">
 </picture>
 
-**Building AI products from idea to production.**
-
-| Project | What I’m building |
-| :--- | :--- |
-| [Cook-Idea](https://github.com/ThreshoLdnnis/Cook-Idea) | An AI workspace for cooking up new ideas. |
-| [Quant-for-babies](https://github.com/ThreshoLdnnis/Quant-for-babies) | A friendly starting point for quantitative finance. |
-| [LingoResources](https://github.com/ThreshoLdnnis/LingoResources) | Useful resources, collected in one place. |
 
 <sub>Stats cover owned public repositories. Uptime = GitHub account age. Refreshed daily with GitHub Actions.</sub>
