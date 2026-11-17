@@ -170,7 +170,7 @@ def make_readme(config: dict, stats: dict) -> str:
     def asset(name: str) -> str:
         # GitHub/raw image caches must get a new URL when the rendered card changes.
         revision = hashlib.sha256((ASSETS / name).read_bytes()).hexdigest()[:12]
-        return f"./assets/{name}?v={revision}"
+        return f"https://raw.githubusercontent.com/{login}/{login}/main/assets/{name}?v={revision}"
 
     alt = (f'{config["name"]} | {config["role"]}. Public GitHub stats: '
            f'{stats["public_repos"]} repositories, {stats["owned_stars"]} stars, '
