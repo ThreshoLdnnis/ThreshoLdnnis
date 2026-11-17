@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1120" height="670" viewBox="0 0 1120 670" role="img" aria-labelledby="title desc">
-<title id="title">Mofarigano: terminal-style GitHub profile</title>
+<title id="title">Feiyang Zhu: terminal-style GitHub profile</title>
 <desc id="desc">ASCII portrait, personal introduction and public GitHub statistics. Uptime is GitHub account age. Stars and forks are totals on owned public repositories.</desc>
 <style>text {font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;}.p0{fill:#b74b85;}.p1{fill:#e77ab4;}.p2{fill:#ffaad4;}.p3{fill:#ffd4eb;}.p4{fill:#fff5fc;}</style>
 <rect x="1" y="1" width="1118" height="668" rx="16" fill="#211823" stroke="#65475a"/>
@@ -81,20 +81,20 @@
 <text x="30" y="459.23" font-size="4.7" fill="#fff1f8" xml:space="preserve" textLength="328" lengthAdjust="spacingAndGlyphs"><tspan class="p0">:::,;;;;i.</tspan><tspan class="p1">M</tspan><tspan class="p0"> </tspan><tspan class="p1">r</tspan><tspan class="p4">@99&amp;S</tspan><tspan class="p3">hHMHM3GMG5</tspan><tspan class="p4">BB##BSG&amp;######@</tspan><tspan class="p1">;</tspan><tspan class="p0"> ;,,,,,,,,,::::::,,,,,,,,,.,  </tspan><tspan class="p4">@&amp;H&amp;########&amp;</tspan><tspan class="p3">S3Sh9H</tspan><tspan class="p4">##@</tspan><tspan class="p3">9</tspan><tspan class="p0"> </tspan><tspan class="p1">h</tspan><tspan class="p0">.i;;:,:i;;;ii</tspan></text>
 <text x="30" y="463.92" font-size="4.7" fill="#fff1f8" xml:space="preserve" textLength="328" lengthAdjust="spacingAndGlyphs"><tspan class="p0">:::,;;;;i,</tspan><tspan class="p1">H</tspan><tspan class="p0"> </tspan><tspan class="p3">@</tspan><tspan class="p4">@9#@</tspan><tspan class="p3">MhHMGhhGMG5</tspan><tspan class="p4">9&amp;#B#H&amp;######B@</tspan><tspan class="p0">  ..:,,,,....................  </tspan><tspan class="p4">@GSB########&amp;#</tspan><tspan class="p3">3SMSh</tspan><tspan class="p4">S#B@</tspan><tspan class="p1">,h</tspan><tspan class="p0">.i;;,,:r;;;;;</tspan></text>
 <text x="30" y="468.61" font-size="4.7" fill="#fff1f8" xml:space="preserve" textLength="328" lengthAdjust="spacingAndGlyphs"><tspan class="p0">::,,;;;;;.</tspan><tspan class="p1">A</tspan><tspan class="p3">M</tspan><tspan class="p4">999G9</tspan><tspan class="p3">MMMHM</tspan><tspan class="p2">3</tspan><tspan class="p3">MMMH5G</tspan><tspan class="p4">9##G########9</tspan><tspan class="p3">S</tspan><tspan class="p0">                            . </tspan><tspan class="p1">,</tspan><tspan class="p4">9</tspan><tspan class="p3">G</tspan><tspan class="p4">9#########9S</tspan><tspan class="p3">3HMHhH</tspan><tspan class="p4">#99</tspan><tspan class="p3">M</tspan><tspan class="p1">5</tspan><tspan class="p0"> ;;:,,:;;;;;;</tspan></text>
-<text x="194" y="526" font-size="21" fill="#fff9fd" font-weight="700" text-anchor="middle">Mofarigano</text>
+<text x="194" y="526" font-size="21" fill="#fff9fd" font-weight="700" text-anchor="middle">Feiyang Zhu</text>
 <text x="194" y="552" font-size="12" fill="#e0bed3" font-weight="400" text-anchor="middle">@ThreshoLdnnis</text>
 <text x="420" y="113" font-size="20" fill="#ffabd6" font-weight="700" text-anchor="start">ThreshoLdnnis@github</text>
 <path d="M420 133H1084" stroke="#65475a"/>
 <text x="420" y="176" font-size="14" fill="#ffd0e8" font-weight="700" text-anchor="start">Role</text>
-<text x="503" y="176" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">AI Founder &amp; Builder</text>
+<text x="503" y="176" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">Team Lead / Research Mentor</text>
 <text x="420" y="209" font-size="14" fill="#ffd0e8" font-weight="700" text-anchor="start">Focus</text>
-<text x="503" y="209" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">AI products / Web / Quant</text>
+<text x="503" y="209" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">Quant Finance / Financial AI / Products</text>
 <text x="420" y="242" font-size="14" fill="#ffd0e8" font-weight="700" text-anchor="start">Stack</text>
-<text x="503" y="242" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">HTML / Jupyter / JavaScript / Python / TypeScript</text>
+<text x="503" y="242" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">Python / SQL / TypeScript / React</text>
 <text x="420" y="275" font-size="14" fill="#ffd0e8" font-weight="700" text-anchor="start">Uptime</text>
 <text x="503" y="275" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">326 days on GitHub</text>
 <text x="420" y="308" font-size="14" fill="#ffd0e8" font-weight="700" text-anchor="start">Now</text>
-<text x="503" y="308" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">From idea to production</text>
+<text x="503" y="308" font-size="14" fill="#fff9fd" font-weight="400" text-anchor="start">Math undergraduate / Product builder</text>
 <text x="420" y="361" font-size="12" fill="#e0bed3" font-weight="400" text-anchor="start">// PUBLIC GITHUB STATS</text>
 <text x="420.0" y="408" font-size="27" fill="#ffabd6" font-weight="700" text-anchor="start">24</text>
 <text x="420.0" y="429" font-size="10" fill="#e0bed3" font-weight="400" text-anchor="start">PUBLIC REPOS</text>
@@ -110,7 +110,7 @@
 <text x="862.6666666666667" y="497" font-size="10" fill="#e0bed3" font-weight="400" text-anchor="start">JOINED GITHUB</text>
 <text x="420" y="554" font-size="15" fill="#ffd0e8" font-weight="400" text-anchor="start">$ keep building_</text>
 <path d="M28 592H1092" stroke="#65475a"/>
-<text x="32" y="622" font-size="12" fill="#e0bed3" font-weight="400" text-anchor="start">Building AI products from idea to production.</text>
+<text x="32" y="622" font-size="12" fill="#e0bed3" font-weight="400" text-anchor="start">Grounded in math. Research, mentorship, and delivery.</text>
 <text x="32" y="646" font-size="9" fill="#e0bed3" font-weight="400" text-anchor="start">PUBLIC DATA / DAILY REFRESH</text>
-<text x="1088" y="646" font-size="9" fill="#e0bed3" font-weight="400" text-anchor="end">UPDATED 2026-11-17 20:03 UTC+8</text>
+<text x="1088" y="646" font-size="9" fill="#e0bed3" font-weight="400" text-anchor="end">UPDATED 2026-11-17 20:11 UTC+8</text>
 </svg>

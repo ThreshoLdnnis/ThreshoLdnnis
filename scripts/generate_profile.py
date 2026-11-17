@@ -130,9 +130,9 @@ def render(config: dict, stats: dict, portrait: dict, mode: str, mobile: bool = 
     details = [
         ("Role", shorten(config["role"], 43)),
         ("Focus", shorten(config["focus"], 43)),
-        ("Stack", shorten(" / ".join(languages) or "Building something new", 55)),
+        ("Stack", shorten(config.get("stack") or " / ".join(languages) or "Building something new", 55)),
         ("Uptime", f'{stats["account_age_days"]:,} days on GitHub'),
-        ("Now", "From idea to production"),
+        ("Now", shorten(config.get("now", "From idea to production"), 43)),
     ]
     for index, (label, value) in enumerate(details):
         y = title_y + 63 + index * 33
@@ -184,16 +184,39 @@ def make_readme(config: dict, stats: dict) -> str:
         f'  <img src="{asset("profile-light.svg")}" alt="{escape(alt, quote=True)}" width="1120">',
         '</picture>',
         '',
-        f'**{escape(config["tagline"])}**',
+        f'### Hi, I’m {config["name"]} ({config.get("alias", login)})',
         '',
-        '| Project | What I\u2019m building |',
+        config["introduction"],
+        '',
+        config["academic_context"],
+        '',
+        config["experience"],
+        '',
+        '### Research I Lead & Mentor',
+        '',
+        f'**{config["research_role"]} across all five projects.** {config["research_approach"]}',
+        '',
+        '| Research project | Focus |',
         '| :--- | :--- |',
     ]
-    for project in config.get("featured_projects", []):
+    for project in config["research_projects"]:
+        name = project["name"].replace("|", "\\|")
+        focus = project["focus"].replace("|", "\\|")
+        lines.append(f'| {name} | {focus} |')
+    lines += ['', config["research_principles"], '', '### Products & Engineering', '']
+    for project in config["product_projects"]:
         name = project["name"]
-        description = project["description"].replace("|", "\\|")
-        lines.append(f'| [{name}](https://github.com/{login}/{urllib.parse.quote(name)}) | {description} |')
-    lines += ['', '<sub>Stats cover owned public repositories. Uptime = GitHub account age. Refreshed daily with GitHub Actions.</sub>', '']
+        if project.get("repository"):
+            name = f'[{name}](https://github.com/{login}/{urllib.parse.quote(project["repository"])})'
+        lines.append(f'- **{name} — {project["role"]}.** {project["description"]}')
+    lines += ['', config["cross_disciplinary"], '', '### Tools & Practice', '']
+    for category in config["toolbox"]:
+        lines.append(f'**{category["label"]}:** {category["items"]}  ')
+    if config.get("learning_repository"):
+        repository = config["learning_repository"]
+        lines += ['', f'Learning in public: [{repository}](https://github.com/{login}/{urllib.parse.quote(repository)}).']
+    lines += ['', f'<sub>Away from the keyboard: {escape(config["interests"])}</sub>', '',
+              '<sub>Stats cover owned public repositories. Uptime = GitHub account age. Refreshed daily with GitHub Actions.</sub>', '']
     return "\n".join(lines)
 
 
