@@ -3,7 +3,7 @@
   <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/profile-mobile-dark.svg?v=4b008ebdce69">
   <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/profile-mobile-light.svg?v=f362e7a6754d">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/profile-dark.svg?v=4dc64bc90dc3">
-  <img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/profile-light.svg?v=920f2b6f95c3" alt="Feiyang Zhu | Team Lead / Research Mentor. Public GitHub stats: 24 repositories, 19 stars, 10 followers. Uptime means GitHub account age." width="1120">
+  <img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/profile-light.svg?v=920f2b6f95c3" alt="Feiyang Zhu | Team Lead / Research Mentor. Public GitHub stats: 40 repositories, 44 stars, 13 followers. Uptime means GitHub account age." width="1120">
 </picture>
 
 ### Hi, I’m Feiyang Zhu (Mofarigano)
