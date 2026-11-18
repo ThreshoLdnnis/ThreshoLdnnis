@@ -5,17 +5,17 @@
   "blog": "",
   "avatar_url": "https://avatars.githubusercontent.com/u/251559955?v=4",
   "created_at": "2025-12-26T07:18:32Z",
-  "account_age_days": 326,
-  "followers": 10,
-  "following": 21,
-  "public_repos": 24,
-  "owned_stars": 19,
+  "account_age_days": 327,
+  "followers": 13,
+  "following": 24,
+  "public_repos": 25,
+  "owned_stars": 26,
   "owned_forks": 1,
   "languages": {
     "HTML": 14,
     "Jupyter Notebook": 3,
+    "Python": 3,
     "JavaScript": 2,
-    "Python": 2,
     "TypeScript": 2
   },
   "recent_projects": [
@@ -24,16 +24,34 @@
       "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
       "description": "Terminal-style profile · ASCII portrait and automatically refreshed public GitHub stats",
       "language": "Python",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
-      "pushed_at": "2026-11-17T12:12:27Z"
+      "pushed_at": "2026-11-18T02:44:55Z"
+    },
+    {
+      "name": "WebDesign8-Rider",
+      "url": "https://github.com/ThreshoLdnnis/WebDesign8-Rider",
+      "description": "Pink Rider interactive hero with a canvas brush reveal effect",
+      "language": "HTML",
+      "stars": 1,
+      "forks": 0,
+      "pushed_at": "2026-11-17T19:47:35Z"
+    },
+    {
+      "name": "ascii-profile-lab",
+      "url": "https://github.com/ThreshoLdnnis/ascii-profile-lab",
+      "description": "从头像到字符画：粉白终端风 GitHub Profile 教程与可复用模板 · Python / SVG / GitHub Actions",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "pushed_at": "2026-11-17T12:25:38Z"
     },
     {
       "name": "Music-of-Love",
       "url": "https://github.com/ThreshoLdnnis/Music-of-Love",
       "description": "A personal music corner with tactile 3D discs, paper-like lyric pages, and a local audio player. 用光盘封面、歌词与旋律，收藏喜欢的声音。",
       "language": "HTML",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "pushed_at": "2026-11-17T11:37:48Z"
     },
@@ -42,7 +60,7 @@
       "url": "https://github.com/ThreshoLdnnis/WebDesign10-PhotoBall",
       "description": "Orbit — an interactive 3D image sphere built with standalone HTML, inline CSS, and vanilla JavaScript.",
       "language": "HTML",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "pushed_at": "2026-11-17T11:14:29Z"
     },
@@ -51,28 +69,10 @@
       "url": "https://github.com/ThreshoLdnnis/WebDesign9-PageToCode",
       "description": "Distill 页面复刻：原生 HTML/CSS/JavaScript、实时粒子扫描与深色编辑器代码转换。",
       "language": "HTML",
-      "stars": 0,
-      "forks": 0,
-      "pushed_at": "2026-11-17T11:12:49Z"
-    },
-    {
-      "name": "ReadingCorner",
-      "url": "https://github.com/ThreshoLdnnis/ReadingCorner",
-      "description": "老猪精选书籍 · 一个可离线打开的 3D 私人读书角，收录 51 本书，支持分类、书单编辑与导入导出。",
-      "language": "HTML",
-      "stars": 0,
-      "forks": 0,
-      "pushed_at": "2026-11-17T11:10:58Z"
-    },
-    {
-      "name": "LingoResources",
-      "url": "https://github.com/ThreshoLdnnis/LingoResources",
-      "description": "资源聚合平台",
-      "language": "TypeScript",
       "stars": 1,
       "forks": 0,
-      "pushed_at": "2026-11-17T10:33:49Z"
+      "pushed_at": "2026-11-17T11:12:49Z"
     }
   ],
-  "fetched_at": "2026-11-17T12:12:43Z"
+  "fetched_at": "2026-11-18T07:41:19Z"
 }
