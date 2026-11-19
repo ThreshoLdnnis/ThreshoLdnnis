@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/profile-light.svg?v=e02b78fec1a9" alt="Feiyang Zhu | Team Lead / Research Mentor. Public GitHub stats: 25 repositories, 26 stars, 13 followers. Uptime means GitHub account age." width="1120">
 </picture>
 
-### Hi, I’m Feiyang Zhu (Mofarigano)
+### Hi, I’m Feiyang Zhu 
 
 I'm a Mathematics and Applied Mathematics undergraduate working across quantitative finance, financial AI, product design, and software engineering. I lead research teams, mentor contributors, and help interdisciplinary projects move from a question to a reproducible result or a working product.
 
