@@ -5,16 +5,16 @@
   "blog": "",
   "avatar_url": "https://avatars.githubusercontent.com/u/251559955?v=4",
   "created_at": "2025-12-26T07:18:32Z",
-  "account_age_days": 328,
-  "followers": 16,
+  "account_age_days": 329,
+  "followers": 19,
   "following": 115,
-  "public_repos": 28,
-  "owned_stars": 29,
+  "public_repos": 31,
+  "owned_stars": 38,
   "owned_forks": 1,
   "languages": {
-    "HTML": 17,
+    "HTML": 18,
+    "Python": 5,
     "Jupyter Notebook": 3,
-    "Python": 3,
     "JavaScript": 2,
     "TypeScript": 2
   },
@@ -24,27 +24,27 @@
       "url": "https://github.com/ThreshoLdnnis/MyBlog",
       "description": "Mofarigano’s personal journal with the MovingSpider welcome scene.",
       "language": "HTML",
-      "stars": 0,
+      "stars": 2,
       "forks": 0,
-      "pushed_at": "2026-11-19T06:57:54Z"
-    },
-    {
-      "name": "MovingSpider",
-      "url": "https://github.com/ThreshoLdnnis/MovingSpider",
-      "description": "An interactive curiosity cabinet with a photo-rigged jumping spider, living silk, 18 collectible objects and three texture themes.",
-      "language": "HTML",
-      "stars": 0,
-      "forks": 0,
-      "pushed_at": "2026-11-19T04:16:18Z"
+      "pushed_at": "2026-11-20T06:49:02Z"
     },
     {
       "name": "ThreshoLdnnis",
       "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
       "description": "Terminal-style profile · ASCII portrait and automatically refreshed public GitHub stats",
       "language": "Python",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
-      "pushed_at": "2026-11-19T00:45:50Z"
+      "pushed_at": "2026-11-19T07:37:51Z"
+    },
+    {
+      "name": "MovingSpider",
+      "url": "https://github.com/ThreshoLdnnis/MovingSpider",
+      "description": "An interactive curiosity cabinet with a photo-rigged jumping spider, living silk, 18 collectible objects and three texture themes.",
+      "language": "HTML",
+      "stars": 2,
+      "forks": 0,
+      "pushed_at": "2026-11-19T04:16:18Z"
     },
     {
       "name": "WebDesign11-Books",
@@ -74,5 +74,5 @@
       "pushed_at": "2026-11-17T12:25:38Z"
     }
   ],
-  "fetched_at": "2026-11-19T07:37:50Z"
+  "fetched_at": "2026-11-20T07:28:47Z"
 }
