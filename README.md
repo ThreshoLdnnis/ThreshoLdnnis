@@ -14,6 +14,23 @@ I assist an economics and management faculty team at Tsinghua University's Shenz
 
 Previously: Quantitative Research Intern at Two Sigma (Hong Kong, 2025–2026); HR Intern at Alibaba International (Shenzhen, 2024).
 
+### Connections & Collaborations
+
+I’ve built lasting connections with the companies, universities, and organizations below through collaborative projects, working relationships, and participation in their official programs, events, and competitions with formal review or selection processes.
+
+<p>
+  <a href="https://www.tsinghua.edu.cn/en/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/tsinghua.svg?v=cec4fcd24a13" alt="Tsinghua University" title="Tsinghua University" width="140" height="52"></a>
+  <a href="https://english.pku.edu.cn/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/peking.svg?v=11c604c02c89" alt="Peking University" title="Peking University" width="140" height="52"></a>
+  <a href="https://www.stanford.edu/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/stanford.svg?v=077d0e5ee8bc" alt="Stanford University" title="Stanford University" width="140" height="52"></a>
+  <a href="https://www.twosigma.com/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/two-sigma.svg?v=3aafadc20df0" alt="Two Sigma" title="Two Sigma" width="140" height="52"></a>
+  <a href="https://www.alibaba.com/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/alibaba.svg?v=1d4ad0e31aea" alt="Alibaba.com" title="Alibaba.com" width="140" height="52"></a>
+  <a href="https://www.tencent.com/en-us/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/tencent.svg?v=7a85b21e5bd4" alt="Tencent" title="Tencent" width="140" height="52"></a>
+  <a href="https://www.jpmorgan.com/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/jpmorgan.svg?v=0d47e1eae147" alt="J.P. Morgan" title="J.P. Morgan" width="140" height="52"></a>
+  <a href="https://www.mercedes-benz.com/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/mercedes-benz.svg?v=83511f323748" alt="Mercedes-Benz" title="Mercedes-Benz" width="140" height="52"></a>
+  <a href="https://www.zara.com/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/zara.svg?v=4581f9dcc478" alt="ZARA" title="ZARA" width="140" height="52"></a>
+  <a href="https://www.louisvuitton.com/"><img src="https://raw.githubusercontent.com/ThreshoLdnnis/ThreshoLdnnis/main/assets/organizations/louis-vuitton.svg?v=e42a36fff264" alt="Louis Vuitton" title="Louis Vuitton" width="140" height="52"></a>
+</p>
+
 ### Research I Lead & Mentor
 
 **Team Lead & Research Mentor across all five projects.** I shape research questions, design methods, plan tasks, guide contributors, review experiments and implementations, and integrate the team's results.
@@ -48,3 +65,4 @@ Learning in public: [Quant-for-babies](https://github.com/ThreshoLdnnis/Quant-fo
 <sub>Away from the keyboard: Tennis, badminton, hiking, photography, travel, and FPS games.</sub>
 
 <sub>Stats cover owned public repositories. Uptime = GitHub account age. Refreshed daily with GitHub Actions.</sub>
+

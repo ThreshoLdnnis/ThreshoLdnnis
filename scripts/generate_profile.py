@@ -165,6 +165,23 @@ def render(config: dict, stats: dict, portrait: dict, mode: str, mobile: bool = 
     return "\n".join(fragments)
 
 
+def make_connections_section(config: dict) -> list[str]:
+    section = config.get("connections")
+    if not section:
+        return []
+    login = config["username"]
+    lines = [f'### {section["heading"]}', '', section["description"], '', '<p>']
+    for organization in section["organizations"]:
+        path = organization["logo"]
+        logo = ASSETS / path
+        revision = hashlib.sha256(logo.read_bytes()).hexdigest()[:12]
+        source = f'https://raw.githubusercontent.com/{login}/{login}/main/assets/{path}?v={revision}'
+        lines.append(f'  <a href="{escape(organization["url"], quote=True)}"><img '
+                     f'src="{escape(source, quote=True)}" alt="{escape(organization["name"], quote=True)}" '
+                     f'title="{escape(organization["name"], quote=True)}" width="140" height="52"></a>')
+    return lines + ['</p>', '']
+
+
 def make_readme(config: dict, stats: dict) -> str:
     login = config["username"]
     def asset(name: str) -> str:
@@ -192,6 +209,9 @@ def make_readme(config: dict, stats: dict) -> str:
         '',
         config["experience"],
         '',
+    ]
+    lines += make_connections_section(config)
+    lines += [
         '### Research I Lead & Mentor',
         '',
         f'**{config["research_role"]} across all five projects.** {config["research_approach"]}',

@@ -13,25 +13,123 @@
   "research_role": "Team Lead & Research Mentor",
   "research_approach": "I shape research questions, design methods, plan tasks, guide contributors, review experiments and implementations, and integrate the team's results.",
   "research_projects": [
-    {"name": "Credit Risk & Explainable ML", "focus": "WOE/IV scorecards, LightGBM, SHAP, and reproducible model comparison."},
-    {"name": "A-share Multi-factor Research", "focus": "Point-in-time alignment, factor construction, neutralization, IC analysis, and backtesting."},
-    {"name": "Financial Research Assistant", "focus": "Financial-document RAG, hybrid retrieval, cited answers, extraction, and quality/latency/cost evaluation."},
-    {"name": "Regime-aware Factor Allocation", "focus": "Market-state indicators, dynamic weighting, rolling out-of-sample tests, and robustness checks."},
-    {"name": "ML Stock Selection & Explainable Alpha", "focus": "Ridge and LightGBM, stock ranking, cost-aware backtesting, SHAP, and feature ablation."}
+    {
+      "name": "Credit Risk & Explainable ML",
+      "focus": "WOE/IV scorecards, LightGBM, SHAP, and reproducible model comparison."
+    },
+    {
+      "name": "A-share Multi-factor Research",
+      "focus": "Point-in-time alignment, factor construction, neutralization, IC analysis, and backtesting."
+    },
+    {
+      "name": "Financial Research Assistant",
+      "focus": "Financial-document RAG, hybrid retrieval, cited answers, extraction, and quality/latency/cost evaluation."
+    },
+    {
+      "name": "Regime-aware Factor Allocation",
+      "focus": "Market-state indicators, dynamic weighting, rolling out-of-sample tests, and robustness checks."
+    },
+    {
+      "name": "ML Stock Selection & Explainable Alpha",
+      "focus": "Ridge and LightGBM, stock ranking, cost-aware backtesting, SHAP, and feature ablation."
+    }
   ],
   "research_principles": "I care about point-in-time data, preventing leakage, out-of-sample evaluation, interpretability, and reproducibility—and helping teammates understand the methods behind their work.",
   "product_projects": [
-    {"name": "Lingyu", "repository": "Qsinghua-TencentSmaker", "role": "Independent product designer & developer", "description": "Designed and launched a student growth platform with bilingual interfaces, permissions, content management, and responsive design."},
-    {"name": "TAP", "role": "Independent product designer & developer", "description": "Designed and launched a digital business card workshop website with bilingual content and interactive card demonstrations."},
-    {"name": "PACT", "role": "Product architecture & team integration", "description": "Contributed to a banking-agent sandbox: task workflows, context clarification, replanning, execution states, and integration."},
-    {"name": "CookIdea", "repository": "Cook-Idea", "role": "Product initiator & prototype builder", "description": "Created a cooking-inspired creativity workspace and interactive frontend prototype, currently powered by local rules and templates."}
+    {
+      "name": "Lingyu",
+      "repository": "Qsinghua-TencentSmaker",
+      "role": "Independent product designer & developer",
+      "description": "Designed and launched a student growth platform with bilingual interfaces, permissions, content management, and responsive design."
+    },
+    {
+      "name": "TAP",
+      "role": "Independent product designer & developer",
+      "description": "Designed and launched a digital business card workshop website with bilingual content and interactive card demonstrations."
+    },
+    {
+      "name": "PACT",
+      "role": "Product architecture & team integration",
+      "description": "Contributed to a banking-agent sandbox: task workflows, context clarification, replanning, execution states, and integration."
+    },
+    {
+      "name": "CookIdea",
+      "repository": "Cook-Idea",
+      "role": "Product initiator & prototype builder",
+      "description": "Created a cooking-inspired creativity workspace and interactive frontend prototype, currently powered by local rules and templates."
+    }
   ],
   "cross_disciplinary": "Other team roles: Project Manager for 3D ReFab (six-person team), team captain for MetaCruise, and co-initiator/core contributor to Fastyle NailBot.",
   "toolbox": [
-    {"label": "Research", "items": "Python, SQL, pandas, DuckDB, scikit-learn, LightGBM, SHAP"},
-    {"label": "Applications", "items": "TypeScript, React, Next.js, Tailwind CSS, Three.js, FastAPI, PostgreSQL"},
-    {"label": "Team delivery", "items": "Issue planning, PR reviews, testing, deployment, reproducible workflows, and technical documentation"}
+    {
+      "label": "Research",
+      "items": "Python, SQL, pandas, DuckDB, scikit-learn, LightGBM, SHAP"
+    },
+    {
+      "label": "Applications",
+      "items": "TypeScript, React, Next.js, Tailwind CSS, Three.js, FastAPI, PostgreSQL"
+    },
+    {
+      "label": "Team delivery",
+      "items": "Issue planning, PR reviews, testing, deployment, reproducible workflows, and technical documentation"
+    }
   ],
   "learning_repository": "Quant-for-babies",
-  "interests": "Tennis, badminton, hiking, photography, travel, and FPS games."
+  "interests": "Tennis, badminton, hiking, photography, travel, and FPS games.",
+  "connections": {
+    "heading": "Connections & Collaborations",
+    "description": "I’ve built lasting connections with the companies, universities, and organizations below through collaborative projects, working relationships, and participation in their official programs, events, and competitions with formal review or selection processes.",
+    "organizations": [
+      {
+        "name": "Tsinghua University",
+        "logo": "organizations/tsinghua.svg",
+        "url": "https://www.tsinghua.edu.cn/en/"
+      },
+      {
+        "name": "Peking University",
+        "logo": "organizations/peking.svg",
+        "url": "https://english.pku.edu.cn/"
+      },
+      {
+        "name": "Stanford University",
+        "logo": "organizations/stanford.svg",
+        "url": "https://www.stanford.edu/"
+      },
+      {
+        "name": "Two Sigma",
+        "logo": "organizations/two-sigma.svg",
+        "url": "https://www.twosigma.com/"
+      },
+      {
+        "name": "Alibaba.com",
+        "logo": "organizations/alibaba.svg",
+        "url": "https://www.alibaba.com/"
+      },
+      {
+        "name": "Tencent",
+        "logo": "organizations/tencent.svg",
+        "url": "https://www.tencent.com/en-us/"
+      },
+      {
+        "name": "J.P. Morgan",
+        "logo": "organizations/jpmorgan.svg",
+        "url": "https://www.jpmorgan.com/"
+      },
+      {
+        "name": "Mercedes-Benz",
+        "logo": "organizations/mercedes-benz.svg",
+        "url": "https://www.mercedes-benz.com/"
+      },
+      {
+        "name": "ZARA",
+        "logo": "organizations/zara.svg",
+        "url": "https://www.zara.com/"
+      },
+      {
+        "name": "Louis Vuitton",
+        "logo": "organizations/louis-vuitton.svg",
+        "url": "https://www.louisvuitton.com/"
+      }
+    ]
+  }
 }
