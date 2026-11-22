@@ -100,11 +100,11 @@
 <text x="420.0" y="429" font-size="10" fill="#e0bed3" font-weight="400" text-anchor="start">PUBLIC REPOS</text>
 <text x="641.3333333333334" y="408" font-size="27" fill="#ffabd6" font-weight="700" text-anchor="start">38</text>
 <text x="641.3333333333334" y="429" font-size="10" fill="#e0bed3" font-weight="400" text-anchor="start">STARS EARNED</text>
-<text x="862.6666666666667" y="408" font-size="27" fill="#ffabd6" font-weight="700" text-anchor="start">21</text>
+<text x="862.6666666666667" y="408" font-size="27" fill="#ffabd6" font-weight="700" text-anchor="start">44</text>
 <text x="862.6666666666667" y="429" font-size="10" fill="#e0bed3" font-weight="400" text-anchor="start">FOLLOWERS</text>
 <text x="420.0" y="476" font-size="27" fill="#ffabd6" font-weight="700" text-anchor="start">1</text>
 <text x="420.0" y="497" font-size="10" fill="#e0bed3" font-weight="400" text-anchor="start">FORKS RECEIVED</text>
-<text x="641.3333333333334" y="476" font-size="27" fill="#ffabd6" font-weight="700" text-anchor="start">251</text>
+<text x="641.3333333333334" y="476" font-size="27" fill="#ffabd6" font-weight="700" text-anchor="start">256</text>
 <text x="641.3333333333334" y="497" font-size="10" fill="#e0bed3" font-weight="400" text-anchor="start">FOLLOWING</text>
 <text x="862.6666666666667" y="476" font-size="27" fill="#ffabd6" font-weight="700" text-anchor="start">2025</text>
 <text x="862.6666666666667" y="497" font-size="10" fill="#e0bed3" font-weight="400" text-anchor="start">JOINED GITHUB</text>
@@ -112,5 +112,5 @@
 <path d="M28 592H1092" stroke="#65475a"/>
 <text x="32" y="622" font-size="12" fill="#e0bed3" font-weight="400" text-anchor="start">Grounded in math. Research, mentorship, and delivery.</text>
 <text x="32" y="646" font-size="9" fill="#e0bed3" font-weight="400" text-anchor="start">PUBLIC DATA / DAILY REFRESH</text>
-<text x="1088" y="646" font-size="9" fill="#e0bed3" font-weight="400" text-anchor="end">UPDATED 2026-11-21 15:23 UTC+8</text>
+<text x="1088" y="646" font-size="9" fill="#e0bed3" font-weight="400" text-anchor="end">UPDATED 2026-11-22 15:03 UTC+8</text>
 </svg>

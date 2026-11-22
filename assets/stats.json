@@ -6,8 +6,8 @@
   "avatar_url": "https://avatars.githubusercontent.com/u/251559955?v=4",
   "created_at": "2025-12-26T07:18:32Z",
   "account_age_days": 330,
-  "followers": 21,
-  "following": 251,
+  "followers": 44,
+  "following": 256,
   "public_repos": 31,
   "owned_stars": 38,
   "owned_forks": 1,
@@ -20,22 +20,22 @@
   },
   "recent_projects": [
     {
-      "name": "ThreshoLdnnis",
-      "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
-      "description": "Terminal-style profile · ASCII portrait and automatically refreshed public GitHub stats",
-      "language": "Python",
-      "stars": 2,
-      "forks": 0,
-      "pushed_at": "2026-11-21T07:16:22Z"
-    },
-    {
       "name": "MyBlog",
       "url": "https://github.com/ThreshoLdnnis/MyBlog",
       "description": "Mofarigano’s personal journal with the MovingSpider welcome scene.",
       "language": "HTML",
       "stars": 2,
       "forks": 0,
-      "pushed_at": "2026-11-21T06:32:11Z"
+      "pushed_at": "2026-11-21T11:35:16Z"
+    },
+    {
+      "name": "ThreshoLdnnis",
+      "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
+      "description": "Terminal-style profile · ASCII portrait and automatically refreshed public GitHub stats",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "pushed_at": "2026-11-21T07:23:19Z"
     },
     {
       "name": "MovingSpider",
@@ -74,5 +74,5 @@
       "pushed_at": "2026-11-17T12:25:38Z"
     }
   ],
-  "fetched_at": "2026-11-21T07:23:17Z"
+  "fetched_at": "2026-11-22T07:03:40Z"
 }
