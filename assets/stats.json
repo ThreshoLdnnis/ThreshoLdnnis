@@ -5,20 +5,47 @@
   "blog": "",
   "avatar_url": "https://avatars.githubusercontent.com/u/251559955?v=4",
   "created_at": "2025-12-26T07:18:32Z",
-  "account_age_days": 332,
-  "followers": 89,
+  "account_age_days": 333,
+  "followers": 132,
   "following": 433,
-  "public_repos": 31,
-  "owned_stars": 41,
+  "public_repos": 32,
+  "owned_stars": 43,
   "owned_forks": 1,
   "languages": {
     "HTML": 18,
     "Python": 5,
-    "Jupyter Notebook": 3,
+    "Jupyter Notebook": 4,
     "JavaScript": 2,
     "TypeScript": 2
   },
   "recent_projects": [
+    {
+      "name": "credit-risk-scoring-team",
+      "url": "https://github.com/ThreshoLdnnis/credit-risk-scoring-team",
+      "description": "金融进修第一期：信贷评分卡开发｜团队从零实操，统一接口、任务分工与 PR 协作，逐步完成评分卡、LightGBM、SHAP 与 Streamlit。",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "pushed_at": "2026-11-24T02:39:56Z"
+    },
+    {
+      "name": "titanic-survival-prediction-comparing-entropy-and-gini-decision-trees",
+      "url": "https://github.com/ThreshoLdnnis/titanic-survival-prediction-comparing-entropy-and-gini-decision-trees",
+      "description": "Reproducible Titanic survival prediction: entropy vs. Gini trees, visual diagnostics, and a handwritten ID3 implementation.",
+      "language": "Jupyter Notebook",
+      "stars": 1,
+      "forks": 0,
+      "pushed_at": "2026-11-23T15:48:03Z"
+    },
+    {
+      "name": "Quant-for-babies",
+      "url": "https://github.com/ThreshoLdnnis/Quant-for-babies",
+      "description": "零基础量化金融教程｜8 个 Notebook、5 讲研究专题、7 个交互演示，涵盖数据分析、策略回测、风险与组合，提供十语 README。 | Quant finance for beginners: 8 notebooks, 5 research lectures and 7 interactive demos covering data analysis, backtesting, risk and portfolios. README guides in 10 languages.",
+      "language": "Jupyter Notebook",
+      "stars": 4,
+      "forks": 0,
+      "pushed_at": "2026-11-23T14:56:56Z"
+    },
     {
       "name": "ThreshoLdnnis",
       "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
@@ -26,12 +53,12 @@
       "language": "Python",
       "stars": 2,
       "forks": 0,
-      "pushed_at": "2026-11-22T07:03:41Z"
+      "pushed_at": "2026-11-23T07:51:37Z"
     },
     {
       "name": "MyBlog",
       "url": "https://github.com/ThreshoLdnnis/MyBlog",
-      "description": "Mofarigano’s personal journal with the MovingSpider welcome scene.",
+      "description": "Mofarigano’s personal journal ",
       "language": "HTML",
       "stars": 3,
       "forks": 0,
@@ -42,37 +69,10 @@
       "url": "https://github.com/ThreshoLdnnis/MovingSpider",
       "description": "An interactive curiosity cabinet with a photo-rigged jumping spider, living silk, 18 collectible objects and three texture themes.",
       "language": "HTML",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "pushed_at": "2026-11-19T04:16:18Z"
-    },
-    {
-      "name": "WebDesign11-Books",
-      "url": "https://github.com/ThreshoLdnnis/WebDesign11-Books",
-      "description": "Plinth — Shared Interiors: an interactive architectural atlas with a drifting 3D book ribbon, shelf, and cinematic reading transitions. Single-file HTML/CSS/JS.",
-      "language": "HTML",
-      "stars": 1,
-      "forks": 0,
-      "pushed_at": "2026-11-18T15:58:39Z"
-    },
-    {
-      "name": "WebDesign8-Rider",
-      "url": "https://github.com/ThreshoLdnnis/WebDesign8-Rider",
-      "description": "Pink Rider interactive hero with a canvas brush reveal effect",
-      "language": "HTML",
-      "stars": 1,
-      "forks": 0,
-      "pushed_at": "2026-11-17T19:47:35Z"
-    },
-    {
-      "name": "ascii-profile-lab",
-      "url": "https://github.com/ThreshoLdnnis/ascii-profile-lab",
-      "description": "从头像到字符画：粉白终端风 GitHub Profile 教程与可复用模板 · Python / SVG / GitHub Actions",
-      "language": "Python",
-      "stars": 1,
-      "forks": 0,
-      "pushed_at": "2026-11-17T12:25:38Z"
     }
   ],
-  "fetched_at": "2026-11-23T07:51:35Z"
+  "fetched_at": "2026-11-24T10:04:13Z"
 }
