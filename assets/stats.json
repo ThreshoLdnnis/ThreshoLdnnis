@@ -5,8 +5,8 @@
   "blog": "",
   "avatar_url": "https://avatars.githubusercontent.com/u/251559955?v=4",
   "created_at": "2025-12-26T07:18:32Z",
-  "account_age_days": 336,
-  "followers": 157,
+  "account_age_days": 337,
+  "followers": 165,
   "following": 433,
   "public_repos": 35,
   "owned_stars": 44,
@@ -19,6 +19,15 @@
     "TypeScript": 2
   },
   "recent_projects": [
+    {
+      "name": "ThreshoLdnnis",
+      "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
+      "description": "Terminal-style profile · ASCII portrait and automatically refreshed public GitHub stats",
+      "language": "Python",
+      "stars": 1,
+      "forks": 0,
+      "pushed_at": "2026-11-27T08:46:15Z"
+    },
     {
       "name": "LLM-ResearchAssistant",
       "url": "https://github.com/ThreshoLdnnis/LLM-ResearchAssistant",
@@ -36,15 +45,6 @@
       "stars": 1,
       "forks": 0,
       "pushed_at": "2026-11-26T17:17:43Z"
-    },
-    {
-      "name": "ThreshoLdnnis",
-      "url": "https://github.com/ThreshoLdnnis/ThreshoLdnnis",
-      "description": "Terminal-style profile · ASCII portrait and automatically refreshed public GitHub stats",
-      "language": "Python",
-      "stars": 1,
-      "forks": 0,
-      "pushed_at": "2026-11-26T08:34:56Z"
     },
     {
       "name": "Job-Coming",
@@ -74,5 +74,5 @@
       "pushed_at": "2026-11-24T02:39:56Z"
     }
   ],
-  "fetched_at": "2026-11-27T08:46:14Z"
+  "fetched_at": "2026-11-28T08:01:53Z"
 }
